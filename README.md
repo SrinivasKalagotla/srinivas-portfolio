@@ -2,7 +2,7 @@
 I have 2 years of experience in software engineering, specializing in crafting scalable applications and data-driven solutions. My journey began at Accenture, enhancing critical applications, followed by pioneering research projects at the University of Missouri. Skilled in Java, Spring, Python and Angular, I have contributed to the realms of healthcare, automotive, and academic research. I am passionate about deploying efficient systems, optimizing data pipelines, and delivering meaningful insights through well-structured code.
 
 Click the link below to open my portfolio.
-<https://github.com/SrinivasKalagotla/> 
+<https://github.com/SrinivasKalagotla/srinivas-portfolio> 
 
 ## Development server
 
