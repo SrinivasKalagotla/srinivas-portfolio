@@ -1,0 +1,116 @@
+{
+    "Header.Item1": "About me",
+    "Header.Item2": "Experience",
+    "Header.Item3": "Projects",
+    "Header.Item4": "Contact",
+    "Header.cvBtn": "Resume",
+    "Header.cvName": "Srinivas_Kalagotla_Resume.pdf",
+    "Banner.Pretitle": "Hello! My name is",
+	"Banner.Description": "With over <span class='underline'>2 years of professional experience</span> as a Software Engineer, I've designed, planned, and maintained innovative tech solutions. My hands-on involvement in projects has spanned from audio data analysis for ASD research to enhancing BMW applications. Proficient in <span class='underline'>Java, Python, Angular, and React.js</span>, I take pride in ensuring high-quality software delivery. My academic background in computer science, bolstered by real-world experience, drives my dedication to developing scalable and efficient systems. Having worked with tools like <span class='underline'>AWS</span> and frameworks like <span class='underline'>Spring Boot</span>, I'm committed to leveraging my skills to make a substantial impact in technology.",
+    "Banner.ActionBtn": "Get in touch",
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+    "Over the span of <span class='underline'>2+ years in the software industry</span>, I have committed myself to continuous learning and innovation. My journey began with <span class='underline'>Java and the Spring framework</span> at Accenture, where I contributed to enhancing application functionality for BMW, ensuring both quality and efficiency. In parallel, my role as a Graduate Research Assistant at the University of Missouri, Columbia, allowed me to spearhead a project that used <span class='underline'>AWS, Android, Wear OS, and Machine Learning</span> to provide insights into Autism Spectrum Disorder (ASD).",
+    "Throughout my career, I've consistently endeavored to optimize processes, from enhancing CI/CD pipelines to pioneering the development of web portals using <span class='underline'>Flask and Angular</span>. I believe in taking proactive measures, suggesting system improvements, and driving initiatives that bring added value to projects.",
+    "While my core competencies revolve around <span class='underline'>Java, Python, Angular, and React.js</span>, I've had the opportunity to work with a plethora of technologies and tools, and I'm always eager to explore more."
+	],
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [
+        {
+            "Tab": "UMC",
+            "Title": "Graduate Research Assistant",
+            "Date": "August 2022 - Present",
+            "Description": [
+                "Pioneered a project to gauge social interactions among individuals with Autism Spectrum Disorder (ASD) by harnessing audio data from smart watches, achieving increased insights and fostering collaboration with the Thompson Center for Autism.",
+                "Engineered real-time mobile and wearable applications to streamline voice and health data collection, seamlessly integrating automated transfers to AWS S3.",
+                "Architected a cutting-edge AWS-based ecosystem to process, visualize, and analyze audio and health metrics, leveraging a Machine Learning model to ensure over 90% accuracy in audio data interpretation.",
+                "Developed an interactive web portal using Flask and Angular to provide clinicians with real-time data analytics, harnessing AWS RDS to enhance insights into patient social behaviors."
+            ]
+        },
+
+        {
+            "Tab": "Accenture",
+            "Title": "Associate Software Engineer",
+            "Date": "September 2020 - December 2021",
+            "Description": [
+                "Enhanced and maintained critical applications for BMW using Java and the Spring framework, fostering improved application dynamics and uplifting user interactions.",
+                "Championed server operations for the SPIDER application, processing thousands of invoice inconsistencies and achieving a significant 25% reduction in invoice discrepancies.",
+                "Optimized CI/CD processes to enhance deployment efficiency, ensuring timely and quality-driven application updates in line with organizational quality benchmarks.",
+                "Contributed proactively to the development and debugging of numerous user stories, augmenting application functionality and offering an enhanced user experience."
+            ]
+        }
+    ],
+    "FeatureProjects.Title": "My Signature Projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [
+        {
+            "Title": "Autism Spectrum Disorder (ASD) Analytics Dashboard",
+			"Description": "An advanced <span class='underline'>ASD Analytics Dashboard</span> meticulously crafted using Angular with a Flask backend. The data-driven interface retrieves insights directly from <span class='underline'>AWS RDS</span>. It showcases <span class='underline'>heart rate analysis</span>, a detailed breakdown of <span class='underline'>total spoken time</span> daily, and a comprehensive <span class='underline'>time series visualization</span> of the data.",           "imgs": [
+                "assets/images/dashboard/dashboard.jpg",
+				"assets/images/dashboard/AD.jpg"
+            ],
+            "Technologies": [
+                "Angular",
+                "Flask",
+                "AWS RDS",
+                "Echarts"
+            ]
+        },
+        {
+            "Title": "Smart Watch Voice Recorder",
+            "Description": "A dedicated application for Android smartwatches designed to seamlessly record voice data. Key features include automatic transfer of recorded audio files to <span class='underline'>AWS S3</span> using <span class='underline'>AWS Amplify</span> upon stopping the recording, integrated <span class='underline'>\u2764</span> heart rate data capture, and smart reminders that notify users to initiate or halt recordings at preset intervals.",
+            "imgs": [
+                "assets/images/voiceRecorder/collage.png"
+            ],
+            "Technologies": [
+                "Java",
+                "Android SDK",
+                "AWS S3",
+                "AWS Amplify"
+            ]
+        },        
+        {
+            "Title": "Architecture Design for Audio Processing",
+            "Description": "A robust AWS architecture designed for audio processing. Audio files uploaded to S3 trigger a Lambda via SQS. The Lambda then processes the audio using SageMaker, storing the results back in S3. This scalable and fault-tolerant design ensures efficient handling of multiple audio files simultaneously.",
+            "imgs": [
+                "assets/images/aws/AWS.gif"
+            ],
+            "Technologies": [
+                "AWS S3",
+                "AWS Lambda",
+                "SageMaker",
+                "SQS",
+                "Docker"
+            ]
+        }
+    ],
+    "OtherProjects.Title": "More personal projects",
+    "OtherProjects.Projects": [
+        {
+            "Title": "Wellness Diagnostic Center Dashboard",
+            "Description": "A comprehensive dashboard for Wellness Diagnostic Center, designed to efficiently manage and display lab test bill details. This system offers functionalities like bill addition, display within specific date ranges, and user authentication for enhanced security.",
+            "ghLink": "https://github.com/SrinivasKalagotla/Wellness-Diagnoistic-Center",
+            "Technologies": [
+                "Angular",
+                "NodeJS",
+                "Express.js",
+                "MongoDB"
+            ]
+        },        
+        {
+            "Title": "Voice Recorder App for Android Phones",
+            "Description": "A sophisticated Android app designed for voice recording. Crafted with Java, it boasts features such as user authentication, automatic transfers to AWS S3, and an integrated media player for playback.",
+            "ghLink": "https://github.com/SrinivasKalagotla/Audio-Recorder",
+            "Technologies": [
+                "Java",
+                "AWS Amplify",
+                "AWS S3",
+                "Android Development"
+            ]
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message",
+    "Contact.Btn": "Say Hello"
+}
