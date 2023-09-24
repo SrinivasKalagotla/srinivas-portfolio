@@ -10,7 +10,7 @@ I have 2 years of experience in software engineering, specializing in crafting s
 >>>>>>> e337dd0 (Changes to my name)
 
 Click the link below to open my portfolio.
-<https://github.com/SrinivasKalagotla/> 
+<https://github.com/SrinivasKalagotla/srinivas-portfolio> 
 
 ## Development server
 
