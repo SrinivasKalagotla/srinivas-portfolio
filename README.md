@@ -1,11 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # srinivas-portfolio
 =======
 # Muffeez-Portfolio 
 I have 3 years of experience developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in `Angular, React, NodeJS and ExpressJS and sometimes in Python` applying good practices and development standards.
+=======
+# Srinivas-Portfolio 
+I have 2 years of experience in software engineering, specializing in crafting scalable applications and data-driven solutions. My journey began at Accenture, enhancing critical applications, followed by pioneering research projects at the University of Missouri. Skilled in Java, Spring, Python and Angular, I have contributed to the realms of healthcare, automotive, and academic research. I am passionate about deploying efficient systems, optimizing data pipelines, and delivering meaningful insights through well-structured code.
+>>>>>>> e337dd0 (Changes to my name)
 
 Click the link below to open my portfolio.
-<https://mufeez1.github.io/muffeez/> 
+<https://github.com/SrinivasKalagotla/> 
 
 ## Development server
 
