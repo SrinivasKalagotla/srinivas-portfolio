@@ -1,7 +1,7 @@
 <nav [@animateMenu] class="navbar main-navbar on-top" [class.nav-shadow]='this.pageYPosition>0'>
     <div class="container">
-        <a class="navbar-brand text-light" [routerLink]="'inicio'">
-            <img src='assets/images/me/mario.svg' width='45' />
+        <a class="navbar-brand text-light">
+            <img src="../../../../assets/images/me/developer.png" alt="Developer Image" width="40px" height="40px" />
         </a>
         <ul ngbNav #nav="ngbNav" class="menu-ul">
             <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
@@ -58,12 +58,6 @@
                             {{"Header.cvBtn" | translate}}
                           </a>
                       </li>
-                    
-                        <!-- <li>
-                            <img src="https://www.worldometers.info/img/flags/us-flag.gif" alt="English">
-                        </li> -->
-
-
                     </ol>
                 </nav>
             </aside>

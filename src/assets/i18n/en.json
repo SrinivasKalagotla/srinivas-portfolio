@@ -5,14 +5,14 @@
     "Header.Item4": "Contact",
     "Header.cvBtn": "Resume",
     "Header.cvName": "Srinivas_Kalagotla_Resume.pdf",
-    "Banner.Pretitle": "Hello! My name is",
+    "Banner.Pretitle": "Hello! I'm ",
 	"Banner.Description": "With over <span class='underline'>2 years of professional experience</span> as a Software Engineer, I've designed, planned, and maintained innovative tech solutions. My hands-on involvement in projects has spanned from audio data analysis for ASD research to enhancing BMW applications. Proficient in <span class='underline'>Java, Python, Angular, and React.js</span>, I take pride in ensuring high-quality software delivery. My academic background in computer science, bolstered by real-world experience, drives my dedication to developing scalable and efficient systems. Having worked with tools like <span class='underline'>AWS</span> and frameworks like <span class='underline'>Spring Boot</span>, I'm committed to leveraging my skills to make a substantial impact in technology.",
     "Banner.ActionBtn": "Get in touch",
     "AboutMe.Title": "About me",
     "AboutMe.Paragraphs": [
-    "Over the span of <span class='underline'>2+ years in the software industry</span>, I have committed myself to continuous learning and innovation. My journey began with <span class='underline'>Java and the Spring framework</span> at Accenture, where I contributed to enhancing application functionality for BMW, ensuring both quality and efficiency. In parallel, my role as a Graduate Research Assistant at the University of Missouri, Columbia, allowed me to spearhead a project that used <span class='underline'>AWS, Android, Wear OS, and Machine Learning</span> to provide insights into Autism Spectrum Disorder (ASD).",
+    "Over the span of <span class='underline'>2+ years in the software industry</span>, I have committed myself to continuous learning and innovation. My journey began with technologies like <span class='underline'>Java and the Spring framework</span> at Accenture, where I contributed to enhancing application functionality for BMW, ensuring both quality and efficiency. In parallel, my role as a Graduate Research Assistant at the University of Missouri, Columbia, allowed me to spearhead a project that used <span class='underline'>AWS, Android, Wear OS, and Machine Learning</span> to provide insights into Autism Spectrum Disorder (ASD).",
     "Throughout my career, I've consistently endeavored to optimize processes, from enhancing CI/CD pipelines to pioneering the development of web portals using <span class='underline'>Flask and Angular</span>. I believe in taking proactive measures, suggesting system improvements, and driving initiatives that bring added value to projects.",
-    "While my core competencies revolve around <span class='underline'>Java, Python, Angular, and React.js</span>, I've had the opportunity to work with a plethora of technologies and tools, and I'm always eager to explore more."
+    "While my core competencies revolve around <span class='underline'>Java, Python, Spring, REST APIs</span>, I've had the opportunity to work with a plethora of technologies and tools, and I'm always eager to explore more."
 	],
     "Experience.Title": "Experience",
     "Experience.Jobs": [
@@ -53,7 +53,8 @@
                 "Angular",
                 "Flask",
                 "AWS RDS",
-                "Echarts"
+                "Echarts",
+                "REST APIs"
             ]
         },
         {
@@ -106,6 +107,17 @@
                 "AWS Amplify",
                 "AWS S3",
                 "Android Development"
+            ]
+        },
+        {
+            "Title": "REST API Projects",
+            "Description": "A Java-based application suite featuring the Assembly AI Audio Transcription for efficient speech-to-text conversion, and the Football API - Total Goals by Team, a tool for insightful football data analysis. Both projects showcase advanced RESTful API integration, catering to needs in audio transcription and sports analytics.",
+            "ghLink": "https://github.com/SrinivasKalagotla/RESTAPIs",
+            "Technologies": [
+                "Java",
+                "Gson",
+                "OOP",
+                "Java HTTP Client"
             ]
         }
     ],
