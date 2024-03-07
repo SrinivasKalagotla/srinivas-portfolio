@@ -112,15 +112,6 @@
         },
         {
             "Title": "REST API Projects",
-<<<<<<< HEAD
-            "Description": "A Java-based application suite featuring the Assembly AI Audio Transcription for efficient speech-to-text conversion, and the Football API - Total Goals by Team, a tool for insightful football data analysis. Both projects showcase advanced RESTful API integration, catering to needs in audio transcription and sports analytics.",
-            "ghLink": "https://github.com/SrinivasKalagotla/RESTAPIs",
-            "Technologies": [
-                "Java",
-                "Gson",
-                "OOP",
-                "Java HTTP Client"
-=======
             "Description": " A Java-based application suite featuring the Assembly AI Audio Transcription for efficient speech-to-text conversion, and the Football API - Total Goals by Team, a tool for insightful football data analysis. Both projects showcase advanced RESTful API integration, catering to needs in audio transcription and sports analytics.",
             "ghLink": "https://github.com/SrinivasKalagotla/RESTAPIs",
             "Technologies": [
@@ -139,7 +130,6 @@
                 "HTML",
                 "CSS",
                 "VS Code"
->>>>>>> 364dec6 (Updated Portfolio)
             ]
         }
     ],
