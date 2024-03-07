@@ -4,6 +4,7 @@
     min-height: 100vh;
 
     .container {
+        flex: 2;
         display: table;
         height: 100vh;
 
@@ -15,6 +16,24 @@
                 margin-top: 98px;
             }
 
+            .icon-links {
+                display: flex;
+                justify-content: left;
+                gap: 60px; // Adjust the spacing between icons as needed
+                font-size: 40px; // Adjust icon size as needed
+                margin-top: 20px; // Adjust the margin above the icons as needed
+        
+                .icon-link {
+                    color: #64ffda; // Adjust the icon color as needed
+                    transition: color 0.3s ease;
+        
+                    &:hover,
+                    &:focus {
+                        color: darken(#64ffda, 30%); // Darken the icon color on hover/focus
+                    }
+                }
+            }
+
             h1 {
 
                 color: #64ffda;
@@ -24,8 +43,7 @@
                 font-family: $CodeFont;
             }
 
-            h2,
-            h3 {
+            h2{
                 font-weight: 600;
                 font-size: 80px;
                 line-height: 1.1;
@@ -37,13 +55,8 @@
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }
-
             h2 {
                 color: $LightestSlate;
-            }
-
-            h3 {
-                color: $Slate;
             }
 
             .banner-description {

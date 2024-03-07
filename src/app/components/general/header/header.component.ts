@@ -61,17 +61,9 @@ export class HeaderComponent implements OnInit {
   }
 
   downloadCV(){
-    this.languageService.translateService.get("Header.cvName").subscribe(val => {
-      this.cvName = val
-      console.log(val)
-      // app url
-      let url = window.location.href;
-
-      // Open a new window with the CV
-      window.open(url + "/../assets/cv/" + this.cvName, "_blank");
-    })
-
+    window.open("https://drive.google.com/file/d/1k7rOpndVEVAZSDC-HRMzuiubKfoxoJgC/view", "_blank");
   }
+  
 
   @HostListener('window:scroll', ['getScrollPosition($event)'])
     getScrollPosition(event) {

@@ -3,20 +3,32 @@
         <div class="section-box-banner">
             <div class="content">
                 <div>
+<<<<<<< HEAD
                     <h1>Hello! I'm</h1>
+=======
+                    <h1>Hello! My name is</h1>
+>>>>>>> 364dec6 (Updated Portfolio)
                 </div>
                 <div class='banner-title'>
                     <h2>Srinivas Kalagotla,</h2>
-                    <h3>Software Engineer</h3>
                 </div>
                 <div class='banner-description'>
                     <p [innerHTML]='"Banner.Description" | translate' class="mt-4"></p>
                 </div>
-            </div>
-            <div class="div-btn-banner">
-                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' href="mailto:kalagotla.srinivas07@gmail.com" target="_black" class="main-btn">
-                    {{"Banner.ActionBtn" | translate}}
-                </a>
+                <div class="icon-links">
+                    <a href="https://www.linkedin.com/in/srinivas-kalagotla/" target="_blank" class="icon-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/SrinivasKalagotla" target="_blank" class="icon-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:kalagotla.srinivas07@gmail.com" class="icon-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1k7rOpndVEVAZSDC-HRMzuiubKfoxoJgC/view?usp=sharing" target="_blank" class="icon-link" aria-label="Resume">
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
