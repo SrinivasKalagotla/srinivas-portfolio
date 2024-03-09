@@ -12,19 +12,19 @@
                     <p [innerHTML]='"Banner.Description" | translate' class="mt-4"></p>
                 </div>
                 <div class="icon-links">
-                    <a href="https://www.linkedin.com/in/srinivas-kalagotla/" target="_blank" class="icon-link" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/srinivas-kalagotla/" target="_blank" class="icon-link" aria-label="LinkedIn" (click)='analyticsService.sendAnalyticEvent("click_linkedin", "banner", "click")'>
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="https://github.com/SrinivasKalagotla" target="_blank" class="icon-link" aria-label="GitHub">
+                    <a href="https://github.com/SrinivasKalagotla" target="_blank" class="icon-link" aria-label="GitHub" (click)='analyticsService.sendAnalyticEvent("click_github", "banner", "click")'>
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="mailto:kalagotla.srinivas07@gmail.com" class="icon-link" aria-label="Email">
+                    <a href="mailto:kalagotla.srinivas07@gmail.com" class="icon-link" aria-label="Email" (click)='analyticsService.sendAnalyticEvent("click_email", "banner", "click")'>
                         <i class="fas fa-envelope"></i>
                     </a>
-                    <a href="https://drive.google.com/file/d/1k7rOpndVEVAZSDC-HRMzuiubKfoxoJgC/view?usp=sharing" target="_blank" class="icon-link" aria-label="Resume">
+                    <a href="https://drive.google.com/file/d/1k7rOpndVEVAZSDC-HRMzuiubKfoxoJgC/view?usp=sharing" target="_blank" class="icon-link" aria-label="Resume" (click)='analyticsService.sendAnalyticEvent("click_resume", "banner", "click")'>
                         <i class="fas fa-briefcase"></i>
                     </a>
-                </div>
+                </div>                
             </div>
         </div>
     </div>
