@@ -61,7 +61,7 @@ export class HeaderComponent implements OnInit {
   }
 
   downloadCV(){
-    window.open("https://drive.google.com/file/d/1k7rOpndVEVAZSDC-HRMzuiubKfoxoJgC/view", "_blank");
+    window.open("https://drive.google.com/file/d/13kr1kLbeErxkk9IElq70Ys32bzBp-z8b/view?usp=sharing", "_blank");
   }
   
 
