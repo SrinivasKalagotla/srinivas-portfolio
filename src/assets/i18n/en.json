@@ -17,13 +17,14 @@
     "Experience.Jobs": [
         {
             "Tab": "MU",
-            "Title": "Graduate Research Assistant",
+            "Title": "Research Software Engineer",
             "Date": "July 2022 - December 2023",
             "Description": [
                 "Led the development of a transformative digital tool, a custom <span class='underline'>Android Wear OS</span> app, to improve healthcare diagnostics for individuals with Autism Spectrum Disorder (ASD), demonstrating a passion for creating impactful, user-centric solutions",
                 "Pioneered a scalable cloud-based audio processing platform on <span class='underline'>AWS</span>, showcasing deep expertise in cloud software development and a commitment to leveraging market-leading development platforms for business solutions.",
                 "Implemented a <span class='underline'>Spring Boot</span> backend for secure data management and efficient retrieval from <span class='underline'>AWS RDS</span>, highlighting proficiency in developing robust backend systems that ensure data integrity and security.",
-                "Developed a real-time analytics dashboard using <span class='underline'>Angular</span>, enabling clinicians to monitor patient progress effectively, reflecting a strong foundation in front-end technologies and a dedication to delivering delightful and secure user experiences."
+                "Developed a real-time analytics dashboard using <span class='underline'>Angular</span>, enabling clinicians to monitor patient progress effectively, reflecting a strong foundation in front-end technologies and a dedication to delivering delightful and secure user experiences.",
+                "Secured $300,000 in additional funding, recognizing the system’s potential to revolutionize ASD diagnostic and treatment."
             ]
         },
 
